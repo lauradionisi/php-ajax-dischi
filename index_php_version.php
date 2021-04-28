@@ -1,4 +1,4 @@
-<?php include __DIR__ . '/database.php'; ?>
+<?php include __DIR__ . '/partials/database.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,11 +12,7 @@
 <body>
    
     <div class="wrapper">
-        <header>
-            <div class="logo">
-                <i class="fab fa-spotify"></i>
-            </div>
-        </header>
+        <?php include __DIR__ . '/partials/header.php'; ?>
         <div class="card-container">
             <?php 
                 foreach ($database as $data) { ?>
