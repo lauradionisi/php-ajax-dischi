@@ -16,8 +16,8 @@ var app = new Vue({
                 .get('http://localhost/php-ajax-dischi/server.php')
 
                 .then(function(result) {
-                    const albums = result.data.response;
-
+                    const albums = result.data;
+                   
                     self.albums = albums;
                     console.log(albums);
             

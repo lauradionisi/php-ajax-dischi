@@ -1,4 +1,3 @@
-<?php include __DIR__ . '/partials/database.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
